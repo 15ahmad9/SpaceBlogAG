@@ -972,3 +972,27 @@ width: 110px;
   }
 } 
 
+
+@media(min-width: 1600px) {
+  .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(225, 225, 225, 0.55);
+    border-radius: 1rem;
+    margin-bottom: 50px;
+      padding-left: 50px;
+      margin: 0 210px 50px 210px;
+  }
+
+  .photo2{
+    margin-right: 25%;
+  }
+
+  .hero {
+    width: 100%;
+    min-height: 50vh;
+    padding: 100px 320px;
+  }
+}
+
