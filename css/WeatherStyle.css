@@ -1,0 +1,104 @@
+/* @import url('https://fonts.cdnfonts.com/css/kidspace'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+  .Wcard {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 676px;
+    margin-left: 20%;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: linear-gradient(50deg, #0f346d, #74b5e8,  #24346c);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.6em 1em;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.45);
+    color: black;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+
+  }
+  
+  button:hover {
+    background: linear-gradient(50deg, #08316e, #5baae7,  #1b2e74);
+  }
+
+  .city{
+    justify-content: center;
+    display: flex;
+  }
+  
+  h1.temp {
+    margin: 0px 0 0 0;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  
+  .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+
+  .humidity{
+    position: relative;
+    left: 10%;
+    margin-bottom: 15px;
+  }
+
+  .wind{
+    position: relative;
+    left: 10%;
+    margin-bottom: 15px;
+  }
