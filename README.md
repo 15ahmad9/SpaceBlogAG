@@ -16,4 +16,4 @@
 
 ## Drawn framemark for the site:
 
-![Space AG blog](https://user-images.githubusercontent.com/109623987/216817395-3f7ffe3b-6fd0-4cfe-b866-38455913cea0.png)
+![Space AG blog](https://user-images.githubusercontent.com/109623987/216818499-c9fbf2d8-25de-4137-8adb-c4d4a879f3a3.png)
