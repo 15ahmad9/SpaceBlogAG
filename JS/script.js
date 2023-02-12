@@ -1,4 +1,4 @@
-
+// c
 // let searchButton = document.querySelector("#search")
 
 // searchButton.addEventListener("click", ()=>{
@@ -29,7 +29,7 @@ input.max = date;
 input.addEventListener("change", (event) => getAPOD(event.target.value));
 
 const getAPOD = (date) => {
-  const API_KEY = "jeedZalahZm8ZxpF8fAdRE4w0GLLWovZVFUK3M2c";
+  const API_KEY = "jeedZalahZm8ZxpF8fAdRE4w0GLLWovZVFUK3M2";
   fetch(`https://api.nasa.gov/planetary/apod?date=${date}&api_key=${API_KEY}`)
     .then((response) => {
       if (response.ok) {
