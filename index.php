@@ -589,8 +589,7 @@ left: 25px; -->
     <!-- Footer End -->
 
 
-
-
+<!-- Style Start -->
     <style>
         /* Footer contact */
 
@@ -672,7 +671,7 @@ left: 25px; -->
             background: linear-gradient(50deg, #0f346d, #8ab1cf, #24346c);
         }
     </style>
-
+<!-- Style End -->
 
 
 </body>
