@@ -1,4 +1,5 @@
 <?php
+
 // Connect to database
 include("../config/db_config.php");
 
@@ -18,8 +19,6 @@ if (!empty($_GET)) {
             echo "Error" . $ask_query . mysqli_error($connection);
         }
     }
-
 }
-
 
 ?>
