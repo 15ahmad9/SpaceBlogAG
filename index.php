@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <!-- <link href="https://fonts.cdnfonts.com/css/kidspace" rel="stylesheet"> -->
-
     <meta name="author" content="Ahmad Ghanem">
     <meta name="description" content="Blog about Space">
     <meta name="title" content="learning HTML, CSS, JS, Space">
